@@ -1,6 +1,6 @@
 # Screenshot
 
-![screenshot](https://raw.githubusercontent.com/joao-tupinamba/npm-git-touchbar/blob/master/assets/touch.png)
+![screenshot](https://raw.githubusercontent.com/joao-tupinamba/npm-git-touchbar/master/assets/touch.png)
 
 # Customize your own touchbar
 

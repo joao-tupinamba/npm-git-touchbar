@@ -1,10 +1,6 @@
 # Screenshot
 
-![screenshot](https://raw.githubusercontent.com/iamssen/vscode-touchbar/master/doc-images/screenshot.png)
-
-# Disable VSCode default Touchbar commands
-
-![disable-vscode-default-touchbar](https://raw.githubusercontent.com/iamssen/vscode-touchbar/master/doc-images/config.png)
+![screenshot](https://raw.githubusercontent.com/joao-tupinamba/npm-git-touchbar/blob/master/assets/touch.png)
 
 # Customize your own touchbar
 

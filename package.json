@@ -1,19 +1,19 @@
 {
-  "name": "vscode-ssen-touchbar",
+  "name": "vscode-touchbar-rayc",
   "version": "0.1.2",
-  "description": "SSen's Touchbar Setting",
+  "description": "Touchbar Setting - rayc version",
   "main": "main.js",
   "scripts": {
     "test": "npm test",
-    "publish": "vsce package && open . && open https://marketplace.visualstudio.com/manage/publishers/iamssen",
+    "publish": "vsce package",
     "pack": "vsce package"
   },
-  "author": "Seoyeon Lee <i@ssen.name>",
-  "publisher": "iamssen",
+  "author": "Rayc",
+  "publisher": "rayc",
   "license": "MIT",
-  "repository": "github:iamssen/vscode-touchbar",
-  "bugs": "https://github.com/iamssen/vscode-touchbar/issues",
-  "homepage": "https://github.com/iamssen/vscode-touchbar",
+  "repository": "github:joao-tupinamba/npm-git-touchbar",
+  "bugs": "https://github.com/joao-tupinamba/npm-git-touchbar/issues",
+  "homepage": "https://github.com/joao-tupinamba/npm-git-touchbar",
   "engines": {
     "vscode": "^1.17.0"
   },
@@ -78,7 +78,7 @@
     },
     "configuration": {
       "type": "object",
-      "title": "SSen's Touchbar Config"
+      "title": "Touchbar Config"
     }
   }
 }

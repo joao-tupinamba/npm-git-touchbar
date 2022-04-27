@@ -18,72 +18,61 @@
     "vscode": "^1.17.0"
   },
   "activationEvents": [
-    "*"
-  ],
+		"onCommand:extension.focusTerminal",
+		"onCommand:extension.install",
+		"onCommand:extension.start",
+    "onCommand:extension.pull",
+    "onCommand:extension.push"
+	],
   "contributes": {
     "commands": [
       {
-        "command": "editor.action.revealDefinition",
-        "title": "Go To Definition"
+        "command": "extension.pull",
+        "title": "Git pull",
+        "icon": "./assets/pull.png"
       },
       {
-        "command": "editor.action.goToReferences",
-        "title": "Go To References"
+        "command": "extension.push",
+        "title": "🚀 Git Push",
+        "icon": "./assets/git.png"
       },
       {
-        "command": "workbench.action.showCommands",
-        "title": "CMD"
+        "command": "extension.focusTerminal",
+        "title": "Terminal",
+        "icon": "./assets/terminal.png"
       },
       {
-        "command": "typescript.restartTsServer",
-        "title": "Restart TSServer"
+        "command": "extension.start",
+        "title": "Npm start",
+        "icon": "./assets/project.png"
       },
       {
-        "command": "ssen.touchbar.run",
-        "title": "Run"
-      },
-      {
-        "command": "ssen.touchbar.debug",
-        "title": "Debug"
-      },
-      {
-        "command": "workbench.action.terminal.openNativeConsole",
-        "title": "Terminal"
+        "command": "extension.install",
+        "title": "Npm install",
+        "icon": "./assets/install.png"
       }
     ],
     "menus": {
       "touchBar": [
         {
-          "command": "editor.action.goToReferences",
-          "group": "g2",
-          "when": "editorHasReferenceProvider"
+          "command": "extension.pull",
+          "group": "mygroup@1"
         },
         {
-          "command": "editor.action.revealDefinition",
-          "group": "g1",
-          "when": "editorHasDefinitionProvider"
+          "command": "extension.push",
+          "group": "mygroup@2"
         },
         {
-          "command": "workbench.action.showCommands",
-          "group": "g3"
+          "command": "extension.focusTerminal",
+          "group": "mygroup@3"
         },
         {
-          "command": "typescript.restartTsServer",
-          "group": "g4"
+          "command": "extension.start",
+          "group": "mygroup@4"
         },
         {
-          "command": "ssen.touchbar.run",
-          "group": "g5",
-          "when": "!inDebugMode"
-        },
-        {
-          "command": "ssen.touchbar.debug",
-          "group": "g6",
-          "when": "!inDebugMode"
-        },
-        {
-          "command": "workbench.action.terminal.openNativeConsole",
-          "group": "g7"
+          "command": "extension.install",
+          "group": "mygroup@5"
         }
       ]
     },
